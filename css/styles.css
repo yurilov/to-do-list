@@ -1,0 +1,28 @@
+h1 {
+  color: #1abc9c;
+}
+.rem {
+  margin-left: 5px;
+  background-color: white;
+  color: red;
+  border: none;
+  cursor: pointer;
+}
+
+.wrap {
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .wrap {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .wrap {
+    width: 1280px;
+  }
+}
